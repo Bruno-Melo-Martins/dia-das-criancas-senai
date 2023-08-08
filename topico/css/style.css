@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(#20D3FE, #627FFD, #A235FF);
+}
+.cabecalho{
+    background-color: royalblue;
+    margin: 0;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.cabecalho h1{
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 350%;
+}
+
+/*Corpo*/
+.corpo{
+    width: 900px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    background-color: #ebebeb8a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.corpo h2{
+    text-align: center;
+}
+.corpo p{
+    text-align: justify;
+}
+.corpo h3{
+    padding: 20px;
+    background-color: blueviolet;
+    font-size: larger;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+.corpo h4{
+    text-decoration: underline;
+}
+#ex{
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+a{
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #20D3FE;
+}
+.imag{
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+    text-decoration: overline;
+    font-size: larger;
+}

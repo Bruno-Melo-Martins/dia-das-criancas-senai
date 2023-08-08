@@ -1,0 +1,91 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: royalblue;
+}
+.pergunta{
+    width: 700px;
+    margin: 0 auto;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+#back{
+    background-image: url(Imagens/homem.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    width: 700px;
+    margin: 0 auto;
+}
+.op1{
+    padding: 30px;
+    font-size: 100px;
+    position: relative;
+    left: -135px;
+    top: 40px;
+    color: transparent;
+}
+.op2{
+    padding: 20px;
+    font-size: 100px;
+    position: relative;
+    top: 100px;
+    left: -270px;
+    color: transparent;
+}
+.op3{
+    padding: 20px;
+    font-size: 100px;
+    position: absolute;
+    top: 470px;
+    left: 500px;
+    color: transparent;
+}
+.op4{
+    padding: 10px;
+    font-size: 80px;
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    color: transparent;
+}
+#wrong{
+    width: 500px;
+    margin: 0 auto;
+    background-color: brown;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.8em;
+}
+#wrong p{
+    text-align: justify;
+}
+#botao{
+    background-color: chocolate;
+    font-size: xx-large;
+    width: fit-content;
+    line-height: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#botao a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+#right{
+    width: 500px;
+    margin: 0 auto;
+    background-color: chartreuse;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.8em;
+}
+#wrong p{
+    text-align: justify;
+}
